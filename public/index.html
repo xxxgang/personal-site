@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>王刚 · 个人主页</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+    color: #e2e8f0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .card {
+    max-width: 640px;
+    width: 100%;
+    text-align: center;
+  }
+  .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #38bdf8, #818cf8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 auto 1.5rem;
+    box-shadow: 0 8px 32px rgba(56, 189, 248, 0.3);
+  }
+  h1 { font-size: 2.5rem; margin-bottom: 0.5rem; color: #fff; }
+  .subtitle { font-size: 1.1rem; color: #94a3b8; margin-bottom: 2rem; }
+  .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; margin-bottom: 2rem; }
+  .tag {
+    background: rgba(56, 189, 248, 0.15);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    color: #7dd3fc;
+    padding: 0.4rem 1rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+  }
+  .section { text-align: left; margin-bottom: 1.5rem; }
+  .section h2 { font-size: 1.2rem; color: #38bdf8; margin-bottom: 0.75rem; }
+  .section p { color: #cbd5e1; line-height: 1.8; }
+  .links { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem; }
+  .links a {
+    color: #e2e8f0;
+    text-decoration: none;
+    border: 1px solid #475569;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    transition: all 0.2s;
+  }
+  .links a:hover { border-color: #38bdf8; color: #38bdf8; }
+  footer { margin-top: 3rem; color: #64748b; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">刚</div>
+    <h1>王刚</h1>
+    <p class="subtitle">技术爱好者 · AI 创作者 · 写作者</p>
+    <div class="tags">
+      <span class="tag">AI 视频</span>
+      <span class="tag">玄幻小说</span>
+      <span class="tag">云服务器</span>
+      <span class="tag">网络技术</span>
+      <span class="tag">开源工具</span>
+    </div>
+    <div class="section">
+      <h2>关于我</h2>
+      <p>喜欢折腾技术、做 AI 视频、写玄幻仙侠小说。平时研究云服务器、代理节点、自动化工具，也爱把想法变成能跑起来的东西。</p>
+    </div>
+    <div class="section">
+      <h2>在做的事</h2>
+      <p>AI 短视频创作 · 玄幻仙侠小说《蚀骨行》《残玉吞天》等 · 云服务与节点搭建 · 免费 GPU 玩法探索</p>
+    </div>
+    <footer>© 2026 王刚 · 用 GalaxyCloud 托管</footer>
+  </div>
+</body>
+</html>
